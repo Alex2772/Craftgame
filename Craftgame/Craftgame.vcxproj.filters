@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Core">
+      <UniqueIdentifier>{f7652e8e-9099-48c5-9130-135cdd7d03c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Core">
+      <UniqueIdentifier>{2e07090a-d627-41c0-b27a-8a9bbf3a8201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Shader">
+      <UniqueIdentifier>{5df41e0c-de84-412d-90ff-dee04f7e7f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Shader">
+      <UniqueIdentifier>{4320c252-77d5-4eb8-af98-a912ed81e5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Graphics">
+      <UniqueIdentifier>{4a701dda-86d5-4b0a-b7c6-151c8b091ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Graphics">
+      <UniqueIdentifier>{824fb7a6-c963-4688-b05d-746b60cdf822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Loader">
+      <UniqueIdentifier>{ce71bf86-3da5-4c0f-802c-1c43960f9cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Loader">
+      <UniqueIdentifier>{9a7d7c4d-7f02-4307-9dfa-522a5e2229b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Registry">
+      <UniqueIdentifier>{3c8b161b-879f-4ff6-8d5c-851c83668c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Registry">
+      <UniqueIdentifier>{03dfc836-0ba6-421f-991d-e02a7366b2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Gui">
+      <UniqueIdentifier>{371b3f73-4437-4bd8-aaad-80d9d86fac3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Gui\Screen">
+      <UniqueIdentifier>{fc1165ba-311a-44b2-a300-a96edc776a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Gui\Widget">
+      <UniqueIdentifier>{ae85c6c2-3f29-4690-82bc-d5b89781becd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Gui">
+      <UniqueIdentifier>{e7e4e7e2-efcd-451d-8f2d-1e482a6eabaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Gui\Widget">
+      <UniqueIdentifier>{154c1beb-573c-4e74-b0a6-9a8fe0b9657b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Gui\Screen">
+      <UniqueIdentifier>{4d86bc8e-6354-4fd7-a71b-1cbd2a59aa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Util">
+      <UniqueIdentifier>{f2927e5c-2019-4452-8235-7f8e887d37dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Util">
+      <UniqueIdentifier>{625c87f7-27c4-4bc9-b8c8-0f79054bdc21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Net">
+      <UniqueIdentifier>{3da84f81-0ed2-4e03-b22c-3e85cd5156c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Net">
+      <UniqueIdentifier>{8d728da4-0d0d-43e3-b59e-9ac7633b8415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Gui\Animation">
+      <UniqueIdentifier>{cf84d133-1171-43d7-bd3b-e41bd3dbdd16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Gui\Animation">
+      <UniqueIdentifier>{0b3a9462-a845-42ee-a9f5-21a19387b3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Net\Packet">
+      <UniqueIdentifier>{e5c2effd-fdd7-42bc-bf35-da9d0f410921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Exception">
+      <UniqueIdentifier>{c4d336e9-f9bd-4527-9fad-86b26efee81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Core\Entity">
+      <UniqueIdentifier>{a0856dac-4bfa-4f4b-ba46-e4a4b026165f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Core\Entity">
+      <UniqueIdentifier>{75780a8c-eb17-41b4-b564-bec8f85151c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Net\Packet">
+      <UniqueIdentifier>{62c31c3b-f31c-417e-a393-b0a272f8fb45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Core\Command">
+      <UniqueIdentifier>{2aeca342-03e2-44c1-9a64-43dda8eab7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Core\Command">
+      <UniqueIdentifier>{8966bdbb-6a98-4ca3-8ae2-44c3d0da5a31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Файлы исходного кода\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRenderer.cpp">
+      <Filter>Файлы исходного кода\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Models.cpp">
+      <Filter>Файлы исходного кода\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Файлы исходного кода\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Res.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FontRegistry.cpp">
+      <Filter>Файлы исходного кода\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Framebuffer.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SecFramebuffer.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiButton.cpp">
+      <Filter>Файлы исходного кода\Gui\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreen.cpp">
+      <Filter>Файлы исходного кода\Gui\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreenMainMenu.cpp">
+      <Filter>Файлы исходного кода\Gui\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiSeekBar.cpp">
+      <Filter>Файлы исходного кода\Gui\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Dir.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedModel.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSource.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Файлы исходного кода\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Parsing.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinManager.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiList.cpp">
+      <Filter>Файлы исходного кода\Gui\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiTabButton.cpp">
+      <Filter>Файлы исходного кода\Gui\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiContainer.cpp">
+      <Filter>Файлы исходного кода\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Файлы исходного кода\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreenDialog.cpp">
+      <Filter>Файлы исходного кода\Gui\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Файлы исходного кода\Gui\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MaskFramebuffer.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreenSettings.cpp">
+      <Filter>Файлы исходного кода\Gui\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiSwitch.cpp">
+      <Filter>Файлы исходного кода\Gui\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreenMultiplayer.cpp">
+      <Filter>Файлы исходного кода\Gui\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiTextField.cpp">
+      <Filter>Файлы исходного кода\Gui\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Clipboard.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScreenMessageDialog.cpp">
+      <Filter>Файлы исходного кода\Gui\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiConnectingPanel.cpp">
+      <Filter>Файлы исходного кода\Gui\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurShader.cpp">
+      <Filter>Файлы исходного кода\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftgameServer.cpp">
+      <Filter>Файлы исходного кода\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteServer.cpp">
+      <Filter>Файлы исходного кода\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProfile.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketRegistry.cpp">
+      <Filter>Файлы исходного кода\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRegistry.cpp">
+      <Filter>Файлы исходного кода\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialRegistry.cpp">
+      <Filter>Файлы исходного кода\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Файлы исходного кода\Core\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketStartLogin.cpp">
+      <Filter>Файлы исходного кода\Net\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteBuffer.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlayerHandler.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketPing.cpp">
+      <Filter>Файлы исходного кода\Net\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Файлы исходного кода\Core\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandList.cpp">
+      <Filter>Файлы исходного кода\Core\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleCommandSender.cpp">
+      <Filter>Файлы исходного кода\Core\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandRegistry.cpp">
+      <Filter>Файлы исходного кода\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="OS.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandStop.cpp">
+      <Filter>Файлы исходного кода\Core\Command</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Заголовочные файлы\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Заголовочные файлы\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Models.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Заголовочные файлы\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryInputStream.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Res.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FontRegistry.h">
+      <Filter>Заголовочные файлы\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="Framebuffer.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SecFrameBuffer.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreen.h">
+      <Filter>Заголовочные файлы\Gui\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>Заголовочные файлы\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiButton.h">
+      <Filter>Заголовочные файлы\Gui\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreenMainMenu.h">
+      <Filter>Заголовочные файлы\Gui\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiSeekBar.h">
+      <Filter>Заголовочные файлы\Gui\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Dir.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryOutputStream.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedModel.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderer.h">
+      <Filter>Заголовочные файлы\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Заголовочные файлы\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Parsing.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinManager.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncQueue.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreenSettings.h">
+      <Filter>Заголовочные файлы\Gui\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiList.h">
+      <Filter>Заголовочные файлы\Gui\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiTabButton.h">
+      <Filter>Заголовочные файлы\Gui\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiContainer.h">
+      <Filter>Заголовочные файлы\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreenDialog.h">
+      <Filter>Заголовочные файлы\Gui\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationOpen.h">
+      <Filter>Заголовочные файлы\Gui\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MaskFramebuffer.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFade.h">
+      <Filter>Заголовочные файлы\Gui\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Заголовочные файлы\Gui\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiSwitch.h">
+      <Filter>Заголовочные файлы\Gui\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreenMultiplayer.h">
+      <Filter>Заголовочные файлы\Gui\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiTextField.h">
+      <Filter>Заголовочные файлы\Gui\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Clipboard.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiScreenMessageDialog.h">
+      <Filter>Заголовочные файлы\Gui\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationDialog.h">
+      <Filter>Заголовочные файлы\Gui\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BitBuffer.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiConnectingPanel.h">
+      <Filter>Заголовочные файлы\Gui\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurShader.h">
+      <Filter>Заголовочные файлы\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteServer.h">
+      <Filter>Заголовочные файлы\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftgameServer.h">
+      <Filter>Заголовочные файлы\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Заголовочные файлы\Net\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteBuffer.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketDisconnected.h">
+      <Filter>Заголовочные файлы\Net\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Заголовочные файлы\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProfile.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Заголовочные файлы\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialRegistry.h">
+      <Filter>Заголовочные файлы\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRegistry.h">
+      <Filter>Заголовочные файлы\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketRegistry.h">
+      <Filter>Заголовочные файлы\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketStartLogin.h">
+      <Filter>Заголовочные файлы\Net\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPlayerMP.h">
+      <Filter>Заголовочные файлы\Core\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Заголовочные файлы\Core\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPlayer.h">
+      <Filter>Заголовочные файлы\Core\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncVector.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlayerHandler.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketPing.h">
+      <Filter>Заголовочные файлы\Net\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Заголовочные файлы\Core\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandSender.h">
+      <Filter>Заголовочные файлы\Core\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandList.h">
+      <Filter>Заголовочные файлы\Core\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleCommandSender.h">
+      <Filter>Заголовочные файлы\Core\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandRegistry.h">
+      <Filter>Заголовочные файлы\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftgameException.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="OS.h">
+      <Filter>Заголовочные файлы\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandStop.h">
+      <Filter>Заголовочные файлы\Core\Command</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\glsl\guiF.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="res\glsl\guiV.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="res\glsl\blurF.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="res\glsl\blurV.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="res\glsl\staticF.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="res\glsl\staticV.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="res\glsl\maskF.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="res\glsl\maskV.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Craftgame.exe.manifest">
+      <Filter>Файлы ресурсов</Filter>
+    </Manifest>
+  </ItemGroup>
+</Project>

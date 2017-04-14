@@ -135,8 +135,9 @@ void CGE_setVSync(bool sync);
 
 #ifdef _DEBUG
 #define __DEBUG(a) CGE::instance->logger->debug(std::to_string(a))
+#define __CGE_CE(a) CGE::checkOpenGLError(a)
 #else
+#define __CGE_CE(a)
 #define __DEBUG(a)
 #endif
 
-#define __CGE_CE(a) CGE::checkOpenGLError(a)

@@ -720,11 +720,12 @@ void CGE::checkOpenGLError(std::string s)
 		__prev = s;
 	if ((err = glGetError()) != GL_NO_ERROR) {
 		std::stringstream ss;
-		ss << "OpenGL error has occurred while ";
-		ss << __prev;
-		ss << " [" << err << "]: ";
-		ss << (char*)gluErrorString(err);
-		CGE::instance->logger->err(ss.str());
+		ss << "OpenGL error has occurred ";
+		ss << "[" << __prev << "] => [" << s << "]";
+		char* d = (char*)gluGetString(err);
+		if (d)
+			ss << ": " << d;
+		CGE::instance->logger->err(ss.str()));
 	}
 	__prev = s;
 }

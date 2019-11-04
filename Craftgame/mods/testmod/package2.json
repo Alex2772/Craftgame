@@ -1,0 +1,13 @@
+{
+	"name": "mod",
+	"version": "0.1.1",
+	"mods": [
+		{
+			"modid": "mod",
+			"name": "Mod",
+			"version": "0.1.1",
+			"cge": 1,
+			"side": "both"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "wlp",
+	"version": "0.1.1",
+	"mods": [
+		{
+			"modid": "wallpaper",
+			"name": "Wallpaper",
+			"version": "0.1.1",
+			"cge": 1,
+			"side": "client"
+		}
+	],
+	"authors": ["Azaza", "cheburek"]
+}

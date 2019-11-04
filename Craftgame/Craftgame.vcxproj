@@ -1,0 +1,880 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release CGE Debugger|Win32">
+      <Configuration>Release CGE Debugger</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release CGE Debugger|x64">
+      <Configuration>Release CGE Debugger</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Server Debug|Win32">
+      <Configuration>Server Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Server Debug|x64">
+      <Configuration>Server Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Server Release|Win32">
+      <Configuration>Server Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Server Release|x64">
+      <Configuration>Server Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EE1A6F85-A0A1-41AF-8A82-4024CF495523}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Craftgame</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Server Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release CGE Debugger|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Server Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Server Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release CGE Debugger|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Server Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Server Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release CGE Debugger|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Server Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Server Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release CGE Debugger|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Server Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>true</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Server Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>true</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Server Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <EmbedManifest>true</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release CGE Debugger|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <EmbedManifest>true</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Server Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <EmbedManifest>true</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release CGE Debugger|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Server Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)Server</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WINDOWS;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>D:\OpenGL\steamworks\steam;D:\OpenGL\libvorbis-1.3.5\include;C:\Program Files (x86)\OpenAL 1.1 SDK\include;D:\OpenGL\freetype-2.7\include;D:\OpenGL\libpng\include;D:\OpenGL\glew-1.13.0\include;D:\OpenGL\glm;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32s.lib;opengl32.lib;glu32.lib;ws2_32.lib;OpenAL32.lib;libvorbis_static.lib;libvorbisfile_static.lib;libogg_static.lib;libogg_static.lib;zlibd.lib;libpng16d.lib;libfbxsdk.lib;freetype27MTd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\OpenGL\libvorbis-1.3.5\win32\VS2010\Win32\Debug;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32\EFX-Util_MT;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32;D:\OpenGL\libpng\lib;D:\OpenGL\glew-1.13.0\lib\Release\Win32;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\lib\vs2015\x86\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Server Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WINDOWS;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions);SERVER</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>D:\OpenGL\steamworks\steam;D:\OpenGL\freetype-2.7\include;D:\OpenGL\libpng\include;D:\OpenGL\glew-1.13.0\include;D:\OpenGL\glm;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\OpenGL\libpng\lib;D:\OpenGL\glew-1.13.0\lib\Release\Win32;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\lib\vs2015\x86\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;WINDOWS;_WINDOWS;%(PreprocessorDefinitions);WIN32_LEAN_AND_MEAN;CGE_DEBUGGER</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\OpenGL\steamworks\steam;D:\OpenGL\boost_1_66_0;D:\Python-3.6.1\Include;D:\OpenGL\libvorbis-1.3.5\include;D:\OpenGL\freetype-2.7\include;D:\OpenGL\libpng\include;D:\OpenGL\glew-1.13.0\include;D:\OpenGL\glm;C:\Program Files (x86)\OpenAL 1.1 SDK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\OpenGL\steamworks\win64;D:\OpenGL\boost_1_66_0\stage\lib;D:\Python-3.6.1\PCbuild\amd64;D:\OpenGL\libvorbis-1.3.5\win32\VS2010\x64\Debug;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win64\EFX-Util_MT;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win64;D:\OpenGL\libpng\lib;D:\OpenGL\glew-1.13.0\lib\Release\x64;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\lib\vs2015\x64\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32s.lib;opengl32.lib;glu32.lib;ws2_32.lib;OpenAL32.lib;libvorbis_static.lib;libvorbisfile_static.lib;libogg_static.lib;jpeg64.lib;zlibstatx64d.lib;libpng16x64d.lib;assimp.lib;freetype27x64MTd.lib;%(AdditionalDependencies);libcurld.lib	;Winmm.lib</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+    </Link>
+    <PreBuildEvent>
+      <Command>D:\OpenGL\Craftgame\build.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Server Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;WINDOWS;%(PreprocessorDefinitions);SERVER;WIN32_LEAN_AND_MEAN</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\OpenGL\steamworks\steam;D:\OpenGL\boost_1_66_0;D:\Python-3.6.1\Include;D:\OpenGL\freetype-2.7\include;D:\OpenGL\libpng\include;D:\OpenGL\glew-1.13.0\include;D:\OpenGL\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <ShowIncludes>false</ShowIncludes>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\OpenGL\boost_1_66_0\stage\lib;D:\Python-3.6.1\PCbuild\amd64;D:\OpenGL\libpng\lib;D:\OpenGL\glew-1.13.0\lib\Release\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies);libcurld.lib;zlibstatx64d.lib	;Winmm.lib</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>D:\OpenGL\Craftgame\build.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;WINDOWS;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\OpenGL\steamworks\steam;D:\OpenGL\libvorbis-1.3.5\include;C:\Program Files (x86)\OpenAL 1.1 SDK\include;D:\OpenGL\freetype-2.7\include;D:\OpenGL\libpng\include;D:\OpenGL\glew-1.13.0\include;D:\OpenGL\glm;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\OpenGL\libvorbis-1.3.5\win32\VS2010\Win32\Release;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32\EFX-Util_MT;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32;D:\OpenGL\libpng\lib;D:\OpenGL\glew-1.13.0\lib\Release\Win32;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\lib\vs2015\x86\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32s.lib;opengl32.lib;glu32.lib;ws2_32.lib;OpenAL32.lib;libvorbis_static.lib;libvorbisfile_static.lib;libogg_static.lib;libogg_static.lib;zlib.lib;freetype27MT.lib;libpng16.lib;libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>
+      </AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release CGE Debugger|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;WINDOWS;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\OpenGL\steamworks\steam;D:\OpenGL\libvorbis-1.3.5\include;C:\Program Files (x86)\OpenAL 1.1 SDK\include;D:\OpenGL\freetype-2.7\include;D:\OpenGL\libpng\include;D:\OpenGL\glew-1.13.0\include;D:\OpenGL\glm;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\OpenGL\libvorbis-1.3.5\win32\VS2010\Win32\Release;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32\EFX-Util_MT;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32;D:\OpenGL\libpng\lib;D:\OpenGL\glew-1.13.0\lib\Release\Win32;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\lib\vs2015\x86\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32s.lib;opengl32.lib;glu32.lib;ws2_32.lib;OpenAL32.lib;libvorbis_static.lib;libvorbisfile_static.lib;libogg_static.lib;libogg_static.lib;zlib.lib;freetype27MT.lib;libpng16.lib;libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>
+      </AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Server Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;WINDOWS;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\OpenGL\steamworks\steam;D:\OpenGL\libvorbis-1.3.5\include;C:\Program Files (x86)\OpenAL 1.1 SDK\include;D:\OpenGL\freetype-2.7\include;D:\OpenGL\libpng\include;D:\OpenGL\glew-1.13.0\include;D:\OpenGL\glm;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\OpenGL\libvorbis-1.3.5\win32\VS2010\Win32\Release;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32\EFX-Util_MT;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32;D:\OpenGL\libpng\lib;D:\OpenGL\glew-1.13.0\lib\Release\Win32;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\lib\vs2015\x86\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies);libcurl.lib</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>
+      </AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;WINDOWS;%(PreprocessorDefinitions);WIN32_LEAN_AND_MEAN</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\OpenGL\boost_1_66_0;D:\Python-3.6.1\Include;D:\OpenGL\libvorbis-1.3.5\include;D:\OpenGL\freetype-2.7\include;D:\OpenGL\libpng\include;D:\OpenGL\glew-1.13.0\include;D:\OpenGL\glm;C:\Program Files (x86)\OpenAL 1.1 SDK\include;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\OpenGL\boost_1_66_0\stage\lib;D:\Python-3.6.1\PCbuild\amd64;D:\OpenGL\libvorbis-1.3.5\win32\VS2010\x64\Release;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win64\EFX-Util_MT;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win64;D:\OpenGL\libpng\lib;D:\OpenGL\glew-1.13.0\lib\Release\x64;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\lib\vs2015\x64\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32s.lib;opengl32.lib;glu32.lib;ws2_32.lib;OpenAL32.lib;libvorbis_static.lib;libvorbisfile_static.lib;libogg_static.lib;jpeg64.lib;zlibstatx64.lib;freetype27x64MT.lib;libpng16x64.lib;assimp.lib;%(AdditionalDependencies);ssleay32.lib;libeay32.lib;libsslMT.lib;libcryptoMT.lib;libcurl.lib	;Winmm.lib</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+    </Link>
+    <PreBuildEvent>
+      <Command>D:\OpenGL\Craftgame\build.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release CGE Debugger|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;WINDOWS;%(PreprocessorDefinitions);WIN32_LEAN_AND_MEAN;CGE_DEBUGGER</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\OpenGL\boost_1_66_0;D:\Python-3.6.1\Include;D:\OpenGL\libvorbis-1.3.5\include;D:\OpenGL\freetype-2.7\include;D:\OpenGL\libpng\include;D:\OpenGL\glew-1.13.0\include;D:\OpenGL\glm;C:\Program Files (x86)\OpenAL 1.1 SDK\include;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\OpenGL\boost_1_66_0\stage\lib;D:\Python-3.6.1\PCbuild\amd64;D:\OpenGL\libvorbis-1.3.5\win32\VS2010\x64\Release;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win64\EFX-Util_MT;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win64;D:\OpenGL\libpng\lib;D:\OpenGL\glew-1.13.0\lib\Release\x64;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\lib\vs2015\x64\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32s.lib;opengl32.lib;glu32.lib;ws2_32.lib;OpenAL32.lib;libvorbis_static.lib;libvorbisfile_static.lib;libogg_static.lib;jpeg64.lib;zlibstatx64.lib;freetype27x64MT.lib;libpng16x64.lib;assimp.lib;%(AdditionalDependencies);ssleay32.lib;libeay32.lib;libsslMT.lib;libcryptoMT.lib;libcurl.lib	;Winmm.lib</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+    </Link>
+    <PreBuildEvent>
+      <Command>D:\OpenGL\Craftgame\build.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Server Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;WINDOWS;%(PreprocessorDefinitions);WIN32_LEAN_AND_MEAN;SERVER</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\OpenGL\steamworks\steam;D:\OpenGL\boost_1_66_0;D:\Python-3.6.1\Include;D:\OpenGL\libvorbis-1.3.5\include;D:\OpenGL\freetype-2.7\include;D:\OpenGL\libpng\include;D:\OpenGL\glew-1.13.0\include;D:\OpenGL\glm;C:\Program Files (x86)\OpenAL 1.1 SDK\include;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\OpenGL\boost_1_66_0\stage\lib;D:\Python-3.6.1\PCbuild\amd64;D:\OpenGL\libvorbis-1.3.5\win32\VS2010\x64\Release;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win64\EFX-Util_MT;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win64;D:\OpenGL\libpng\lib;D:\OpenGL\glew-1.13.0\lib\Release\x64;C:\Program Files\Autodesk\FBX\FBX SDK\2017.1\lib\vs2015\x64\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies);libcurl.lib;zlibstatx64.lib	;Winmm.lib</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+    </Link>
+    <PreBuildEvent>
+      <Command>D:\OpenGL\Craftgame\build.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB.cpp" />
+    <ClCompile Include="ADT.cpp" />
+    <ClCompile Include="AdvancedModel.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Animatronic.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Blocks.cpp" />
+    <ClCompile Include="CommandSetblock.cpp" />
+    <ClCompile Include="CommandTickrate.cpp" />
+    <ClCompile Include="CSInterface.cpp" />
+    <ClCompile Include="CustomShader.cpp" />
+    <ClCompile Include="EntityItem.cpp" />
+    <ClCompile Include="EntityMutant.cpp" />
+    <ClCompile Include="EntityOtherPlayerMP.cpp" />
+    <ClCompile Include="EntityPhysics.cpp" />
+    <ClCompile Include="EntityYoYo.cpp" />
+    <ClCompile Include="FbxModelItemRenderer.cpp" />
+    <ClCompile Include="GORegistry.cpp" />
+    <ClCompile Include="BlurShader.cpp" />
+    <ClCompile Include="BufferedStreamProvider.cpp" />
+    <ClCompile Include="ByteBuffer.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CFont.cpp" />
+    <ClCompile Include="Chat.cpp" />
+    <ClCompile Include="Chunk.cpp" />
+    <ClCompile Include="ChunkMesher.cpp" />
+    <ClCompile Include="Clipboard.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="CommandAlert.cpp" />
+    <ClCompile Include="CommandHelp.cpp" />
+    <ClCompile Include="CommandKick.cpp" />
+    <ClCompile Include="CommandList.cpp" />
+    <ClCompile Include="CommandRegistry.cpp" />
+    <ClCompile Include="CommandStop.cpp" />
+    <ClCompile Include="CommandTime.cpp" />
+    <ClCompile Include="CommandTPPos.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="ConsoleCommandSender.cpp" />
+    <ClCompile Include="CraftgameServer.cpp" />
+    <ClCompile Include="Debugger.cpp" />
+    <ClCompile Include="def.cpp" />
+    <ClCompile Include="Depthbuffer.cpp" />
+    <ClCompile Include="Dir.cpp" />
+    <ClCompile Include="DirStreamProvider.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityModel.cpp" />
+    <ClCompile Include="EntityPlayer.cpp" />
+    <ClCompile Include="EntityPlayerMP.cpp" />
+    <ClCompile Include="EntityPlayerSP.cpp" />
+    <ClCompile Include="EntityRegistry.cpp" />
+    <ClCompile Include="EntitySkeleton.cpp" />
+    <ClCompile Include="EventBus.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="FontRegistry.cpp" />
+    <ClCompile Include="Framebuffer.cpp" />
+    <ClCompile Include="Frustum.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GameProfile.cpp" />
+    <ClCompile Include="GameRenderer.cpp" />
+    <ClCompile Include="GBuffer.cpp" />
+    <ClCompile Include="Gui.cpp" />
+    <ClCompile Include="GuiButton.cpp" />
+    <ClCompile Include="GuiContainer.cpp" />
+    <ClCompile Include="GuiCloseButton.cpp" />
+    <ClCompile Include="GuiExtrusion.cpp" />
+    <ClCompile Include="GuiGraph.cpp" />
+    <ClCompile Include="GuiIngameScreen.cpp" />
+    <ClCompile Include="GuiInventory.cpp" />
+    <ClCompile Include="GuiLabel.cpp" />
+    <ClCompile Include="GuiList.cpp" />
+    <ClCompile Include="GuiMenu.cpp" />
+    <ClCompile Include="GuiProgressBar.cpp" />
+    <ClCompile Include="GuiScreen.cpp" />
+    <ClCompile Include="GuiScreenChat.cpp" />
+    <ClCompile Include="GuiScreenDialog.cpp" />
+    <ClCompile Include="GuiScreenLoad.cpp" />
+    <ClCompile Include="GuiScreenMainMenu.cpp" />
+    <ClCompile Include="GuiScreenMessageDialog.cpp" />
+    <ClCompile Include="GuiScreenDirectConnect.cpp" />
+    <ClCompile Include="GuiScreenMM.cpp" />
+    <ClCompile Include="GuiScreenMultiplayer.cpp" />
+    <ClCompile Include="GuiScreenPause.cpp" />
+    <ClCompile Include="GuiScreenRegister.cpp" />
+    <ClCompile Include="GuiScreenScreenshots.cpp" />
+    <ClCompile Include="GuiScreenSettings.cpp" />
+    <ClCompile Include="GuiScreenSingleplayer.cpp" />
+    <ClCompile Include="GuiSeekBar.cpp" />
+    <ClCompile Include="GuiSwitch.cpp" />
+    <ClCompile Include="GuiTabButton.cpp" />
+    <ClCompile Include="GuiText.cpp" />
+    <ClCompile Include="GuiTextField.cpp" />
+    <ClCompile Include="GuiTooltip.cpp" />
+    <ClCompile Include="GuiWindow.cpp" />
+    <ClCompile Include="i18n.cpp" />
+    <ClCompile Include="IChunkTracker.cpp" />
+    <ClCompile Include="InventoryContainer.cpp" />
+    <ClCompile Include="InventoryPlayerContainer.cpp" />
+    <ClCompile Include="ItemCharging.cpp" />
+    <ClCompile Include="Items.cpp" />
+    <ClCompile Include="ItemStackAnimatable.cpp" />
+    <ClCompile Include="ModelItemRenderer.cpp" />
+    <ClCompile Include="Packet.cpp" />
+    <ClCompile Include="ParticleFX.cpp" />
+    <ClCompile Include="PChangeSlot.cpp" />
+    <ClCompile Include="PCharging.cpp" />
+    <ClCompile Include="PClick.cpp" />
+    <ClCompile Include="PContainerAction.cpp" />
+    <ClCompile Include="PContainerData.cpp" />
+    <ClCompile Include="PForce.cpp" />
+    <ClCompile Include="PHandshake.cpp" />
+    <ClCompile Include="PhysicsFX.cpp" />
+    <ClCompile Include="PItemHeld.cpp" />
+    <ClCompile Include="POpenInventory.cpp" />
+    <ClCompile Include="PSound.cpp" />
+    <ClCompile Include="PUpdateSlot.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="RemoteServer2.cpp" />
+    <ClCompile Include="ServerConnect.cpp" />
+    <ClCompile Include="SGuiSeekBar.cpp" />
+    <ClCompile Include="SightFX.cpp" />
+    <ClCompile Include="TestFX.cpp" />
+    <ClCompile Include="TextureAtlas.cpp" />
+    <ClCompile Include="ImageLoader.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemStack.cpp" />
+    <ClCompile Include="Joystick.cpp" />
+    <ClCompile Include="KeyBinding.cpp" />
+    <ClCompile Include="KeyBindingRegistry.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="LightSource.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MaskFramebuffer.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="MaterialRegistry.cpp" />
+    <ClCompile Include="Mod.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="ModelRegistry.cpp" />
+    <ClCompile Include="Models.cpp" />
+    <ClCompile Include="NetPlayerHandler.cpp" />
+    <ClCompile Include="NetServerHandler.cpp" />
+    <ClCompile Include="OS.cpp" />
+    <ClCompile Include="P03ChatMessage.cpp" />
+    <ClCompile Include="P02JoinWorld.cpp" />
+    <ClCompile Include="P01Ping.cpp" />
+    <ClCompile Include="P04ServerData.cpp" />
+    <ClCompile Include="P05ChunkData.cpp" />
+    <ClCompile Include="P06ShowUI.cpp" />
+    <ClCompile Include="P07SetBlock.cpp" />
+    <ClCompile Include="PacketRegistry.cpp" />
+    <ClCompile Include="PADTUpdate.cpp" />
+    <ClCompile Include="Parsing.cpp" />
+    <ClCompile Include="PAutocomplete.cpp" />
+    <ClCompile Include="PDespawnEntity.cpp" />
+    <ClCompile Include="PEntityAnimation.cpp" />
+    <ClCompile Include="PEntityLook.cpp" />
+    <ClCompile Include="PEntityMove.cpp" />
+    <ClCompile Include="PFlyMode.cpp" />
+    <ClCompile Include="PlayerCommandSender.cpp" />
+    <ClCompile Include="PlayerController.cpp" />
+    <ClCompile Include="PlayerListEntry.cpp" />
+    <ClCompile Include="PseudoRandom.cpp" />
+    <ClCompile Include="PSpawnEntity.cpp" />
+    <ClCompile Include="PWorldTime.cpp" />
+    <ClCompile Include="pycge.cpp" />
+    <ClCompile Include="PythonMod.cpp" />
+    <ClCompile Include="RemoteServer.cpp" />
+    <ClCompile Include="Res.cpp" />
+    <ClCompile Include="SecFramebuffer.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="SkinManager.cpp" />
+    <ClCompile Include="Slot.cpp" />
+    <ClCompile Include="Socket.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="ModManager.cpp" />
+    <ClCompile Include="StaticShader.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="TexturePacker.cpp" />
+    <ClCompile Include="ThreadPool.cpp" />
+    <ClCompile Include="ThreadUtils.cpp" />
+    <ClCompile Include="TileEntity.cpp" />
+    <ClCompile Include="TileEntityContainer.cpp" />
+    <ClCompile Include="TorchLightSource.cpp" />
+    <ClCompile Include="TrailFX.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="VAO.cpp" />
+    <ClCompile Include="World.cpp" />
+    <ClCompile Include="WorldGenerator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="ADT.h" />
+    <ClInclude Include="AdvancedModel.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimationDialog.h" />
+    <ClInclude Include="AnimationFade.h" />
+    <ClInclude Include="AnimationOpen.h" />
+    <ClInclude Include="AnimationRotate.h" />
+    <ClInclude Include="Animatronic.h" />
+    <ClInclude Include="AsyncQueue.h" />
+    <ClInclude Include="AsyncVector.h" />
+    <ClInclude Include="BinaryInputStream.h" />
+    <ClInclude Include="BinaryOutputStream.h" />
+    <ClInclude Include="BitBuffer.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="BlockCustomRender.h" />
+    <ClInclude Include="Blocks.h" />
+    <ClInclude Include="CommandSetblock.h" />
+    <ClInclude Include="CommandTickrate.h" />
+    <ClInclude Include="CSInterface.h" />
+    <ClInclude Include="CustomFX.h" />
+    <ClInclude Include="CustomShader.h" />
+    <ClInclude Include="EntityItem.h" />
+    <ClInclude Include="EntityMutant.h" />
+    <ClInclude Include="EntityOtherPlayerMP.h" />
+    <ClInclude Include="EntityPhysics.h" />
+    <ClInclude Include="EntityYoYo.h" />
+    <ClInclude Include="FbxModelItemRenderer.h" />
+    <ClInclude Include="GLTexture.h" />
+    <ClInclude Include="GORegistry.h" />
+    <ClInclude Include="BlurShader.h" />
+    <ClInclude Include="BufferedStreamProvider.h" />
+    <ClInclude Include="build.h" />
+    <ClInclude Include="ByteBuffer.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CFont.h" />
+    <ClInclude Include="Chat.h" />
+    <ClInclude Include="Chunk.h" />
+    <ClInclude Include="ChunkMesher.h" />
+    <ClInclude Include="Clipboard.h" />
+    <ClInclude Include="colors.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="CommandAlert.h" />
+    <ClInclude Include="CommandHelp.h" />
+    <ClInclude Include="CommandKick.h" />
+    <ClInclude Include="CommandList.h" />
+    <ClInclude Include="CommandRegistry.h" />
+    <ClInclude Include="CommandSender.h" />
+    <ClInclude Include="CommandStop.h" />
+    <ClInclude Include="CommandTime.h" />
+    <ClInclude Include="CommandTPPos.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="ConsoleCommandSender.h" />
+    <ClInclude Include="GuiExtrusion.h" />
+    <ClInclude Include="GuiScreenMM.h" />
+    <ClInclude Include="GuiScreenMultiplayer.h" />
+    <ClInclude Include="GuiScreenRegister.h" />
+    <ClInclude Include="GuiScreenSingleplayer.h" />
+    <ClInclude Include="IAnimatable.h" />
+    <ClInclude Include="InventoryContainer.h" />
+    <ClInclude Include="CraftgameException.h" />
+    <ClInclude Include="CraftgameServer.h" />
+    <ClInclude Include="Debugger.h" />
+    <ClInclude Include="def.h" />
+    <ClInclude Include="Depthbuffer.h" />
+    <ClInclude Include="Dir.h" />
+    <ClInclude Include="DirStreamProvider.h" />
+    <ClInclude Include="EntityModel.h" />
+    <ClInclude Include="EntityRegistry.h" />
+    <ClInclude Include="Frustum.h" />
+    <ClInclude Include="GBuffer.h" />
+    <ClInclude Include="GuiIngameScreen.h" />
+    <ClInclude Include="GuiInventory.h" />
+    <ClInclude Include="GuiMenu.h" />
+    <ClInclude Include="GuiProgressBar.h" />
+    <ClInclude Include="IDrawable.h" />
+    <ClInclude Include="easter_messages.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityPlayer.h" />
+    <ClInclude Include="EntityPlayerMP.h" />
+    <ClInclude Include="EntityPlayerSP.h" />
+    <ClInclude Include="EntitySkeleton.h" />
+    <ClInclude Include="EventBus.h" />
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="GameProfile.h" />
+    <ClInclude Include="GameRenderer.h" />
+    <ClInclude Include="Gui.h" />
+    <ClInclude Include="GuiButton.h" />
+    <ClInclude Include="GuiContainer.h" />
+    <ClInclude Include="GuiCloseButton.h" />
+    <ClInclude Include="GuiGraph.h" />
+    <ClInclude Include="GuiLabel.h" />
+    <ClInclude Include="GuiList.h" />
+    <ClInclude Include="GuiScreen.h" />
+    <ClInclude Include="GuiScreenChat.h" />
+    <ClInclude Include="GuiScreenDialog.h" />
+    <ClInclude Include="GuiScreenLoad.h" />
+    <ClInclude Include="GuiScreenMainMenu.h" />
+    <ClInclude Include="GuiScreenMessageDialog.h" />
+    <ClInclude Include="GuiScreenDirectConnect.h" />
+    <ClInclude Include="GuiScreenPause.h" />
+    <ClInclude Include="GuiScreenScreenshots.h" />
+    <ClInclude Include="GuiScreenSettings.h" />
+    <ClInclude Include="GuiSeekBar.h" />
+    <ClInclude Include="GuiSwitch.h" />
+    <ClInclude Include="GuiTabButton.h" />
+    <ClInclude Include="GuiTextField.h" />
+    <ClInclude Include="GuiTooltip.h" />
+    <ClInclude Include="GuiWindow.h" />
+    <ClInclude Include="GuiWindowDebug.h" />
+    <ClInclude Include="i18n.h" />
+    <ClInclude Include="IChunkTracker.h" />
+    <ClInclude Include="IItemRenderer.h" />
+    <ClInclude Include="InventoryPlayerContainer.h" />
+    <ClInclude Include="ItemAnimator.h" />
+    <ClInclude Include="ItemCharging.h" />
+    <ClInclude Include="Items.h" />
+    <ClInclude Include="ItemStackAnimatable.h" />
+    <ClInclude Include="ModelItemRenderer.h" />
+    <ClInclude Include="ParticleFX.h" />
+    <ClInclude Include="PChangeSlot.h" />
+    <ClInclude Include="PCharging.h" />
+    <ClInclude Include="PClick.h" />
+    <ClInclude Include="PContainerAction.h" />
+    <ClInclude Include="PContainerData.h" />
+    <ClInclude Include="PForce.h" />
+    <ClInclude Include="PHandshake.h" />
+    <ClInclude Include="PhysicsFX.h" />
+    <ClInclude Include="PItemHeld.h" />
+    <ClInclude Include="POpenInventory.h" />
+    <ClInclude Include="PSound.h" />
+    <ClInclude Include="PUpdateSlot.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="ServerConnect.h" />
+    <ClInclude Include="SGuiSeekBar.h" />
+    <ClInclude Include="SightFX.h" />
+    <ClInclude Include="Smoother.h" />
+    <ClInclude Include="StandartFX.h" />
+    <ClInclude Include="TestFX.h" />
+    <ClInclude Include="TextureAtlas.h" />
+    <ClInclude Include="Instancer.h" />
+    <ClInclude Include="IServer.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemStack.h" />
+    <ClInclude Include="Joystick.h" />
+    <ClInclude Include="KeyBinding.h" />
+    <ClInclude Include="KeyBindingRegistry.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="LightSource.h" />
+    <ClInclude Include="MaskFramebuffer.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="MaterialRegistry.h" />
+    <ClInclude Include="Mod.h" />
+    <ClInclude Include="ModelRegistry.h" />
+    <ClInclude Include="ModManager.h" />
+    <ClInclude Include="NetPlayerHandler.h" />
+    <ClInclude Include="NetServerHandler.h" />
+    <ClInclude Include="OS.h" />
+    <ClInclude Include="P04ServerData.h" />
+    <ClInclude Include="P05ChunkData.h" />
+    <ClInclude Include="P06ShowUI.h" />
+    <ClInclude Include="P07SetBlock.h" />
+    <ClInclude Include="Packet.h" />
+    <ClInclude Include="P03ChatMessage.h" />
+    <ClInclude Include="P00Disconnected.h" />
+    <ClInclude Include="P02JoinWorld.h" />
+    <ClInclude Include="P01Ping.h" />
+    <ClInclude Include="PacketRegistry.h" />
+    <ClInclude Include="PADTUpdate.h" />
+    <ClInclude Include="Parsing.h" />
+    <ClInclude Include="PAutocomplete.h" />
+    <ClInclude Include="PDespawnEntity.h" />
+    <ClInclude Include="PEntityAnimation.h" />
+    <ClInclude Include="PEntityLook.h" />
+    <ClInclude Include="PEntityMove.h" />
+    <ClInclude Include="PFlyMode.h" />
+    <ClInclude Include="PlayerCommandSender.h" />
+    <ClInclude Include="PlayerController.h" />
+    <ClInclude Include="PlayerListEntry.h" />
+    <ClInclude Include="PseudoRandom.h" />
+    <ClInclude Include="PSpawnEntity.h" />
+    <ClInclude Include="PWorldTime.h" />
+    <ClInclude Include="pycge.h" />
+    <ClInclude Include="Pyhook.h" />
+    <ClInclude Include="pylogger.h" />
+    <ClInclude Include="PythonMod.h" />
+    <ClInclude Include="RemoteServer.h" />
+    <ClInclude Include="SecFrameBuffer.h" />
+    <ClInclude Include="FontRegistry.h" />
+    <ClInclude Include="Framebuffer.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="ImageLoader.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Models.h" />
+    <ClInclude Include="Res.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="SkinManager.h" />
+    <ClInclude Include="Slot.h" />
+    <ClInclude Include="Socket.h" />
+    <ClInclude Include="SolidBlock.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="StaticShader.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="GuiText.h" />
+    <ClInclude Include="TexturePacker.h" />
+    <ClInclude Include="ThreadPool.h" />
+    <ClInclude Include="ThreadUtils.h" />
+    <ClInclude Include="TileEntity.h" />
+    <ClInclude Include="TileEntityContainer.h" />
+    <ClInclude Include="TorchLightSource.h" />
+    <ClInclude Include="TrailFX.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="VAO.h" />
+    <ClInclude Include="VAOHelper.h" />
+    <ClInclude Include="World.h" />
+    <ClInclude Include="WorldGenerator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\glsl\blurF.glsl" />
+    <None Include="res\glsl\blurV.glsl" />
+    <None Include="res\glsl\gbufferF.glsl" />
+    <None Include="res\glsl\gbufferV.glsl" />
+    <None Include="res\glsl\gpostF.glsl" />
+    <None Include="res\glsl\guiF.glsl" />
+    <None Include="res\glsl\guiV.glsl" />
+    <None Include="res\glsl\maskF.glsl" />
+    <None Include="res\glsl\maskV.glsl" />
+    <None Include="res\glsl\particle2V.glsl" />
+    <None Include="res\glsl\particleF.glsl" />
+    <None Include="res\glsl\particleV.glsl" />
+    <None Include="res\glsl\shadowG.glsl" />
+    <None Include="res\glsl\skeletonV.glsl" />
+    <None Include="res\glsl\starF.glsl" />
+    <None Include="res\glsl\starV.glsl" />
+    <None Include="res\glsl\staticF.glsl" />
+    <None Include="res\glsl\staticV.glsl" />
+    <None Include="res\lang\en_US.lang" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Craftgame.exe.manifest" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

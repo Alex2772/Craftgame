@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Craftgame", "Craftgame\Craftgame.vcxproj", "{EE1A6F85-A0A1-41AF-8A82-4024CF495523}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0020ECA3-98EA-495E-8DA4-5BED7D3CAA87}"
+	ProjectSection(SolutionItems) = preProject
+		Performance2.psess = Performance2.psess
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release CGE Debugger|Win32 = Release CGE Debugger|Win32
+		Release CGE Debugger|x64 = Release CGE Debugger|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Server Debug|Win32 = Server Debug|Win32
+		Server Debug|x64 = Server Debug|x64
+		Server Release|Win32 = Server Release|Win32
+		Server Release|x64 = Server Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Debug|Win32.Build.0 = Debug|Win32
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Debug|x64.ActiveCfg = Debug|x64
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Debug|x64.Build.0 = Debug|x64
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Release CGE Debugger|Win32.ActiveCfg = Release CGE Debugger|Win32
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Release CGE Debugger|Win32.Build.0 = Release CGE Debugger|Win32
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Release CGE Debugger|x64.ActiveCfg = Release CGE Debugger|x64
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Release CGE Debugger|x64.Build.0 = Release CGE Debugger|x64
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Release|Win32.ActiveCfg = Release|Win32
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Release|Win32.Build.0 = Release|Win32
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Release|x64.ActiveCfg = Release|x64
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Release|x64.Build.0 = Release|x64
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Server Debug|Win32.ActiveCfg = Server Debug|Win32
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Server Debug|Win32.Build.0 = Server Debug|Win32
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Server Debug|x64.ActiveCfg = Server Debug|x64
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Server Debug|x64.Build.0 = Server Debug|x64
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Server Release|Win32.ActiveCfg = Server Release|Win32
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Server Release|Win32.Build.0 = Server Release|Win32
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Server Release|x64.ActiveCfg = Server Release|x64
+		{EE1A6F85-A0A1-41AF-8A82-4024CF495523}.Server Release|x64.Build.0 = Server Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

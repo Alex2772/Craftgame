@@ -1,0 +1,72 @@
+#!English:English
+gui.done=Done
+gui.choose=Choose
+gui.back=Back
+gui.settings.mods.pack=Pack...
+game.jump=Jump
+game.sneak=Sneak
+game.break=Break
+game.place=Place
+game.change_item=Change item
+gui.none=None
+gui.ok=OK
+gui.switch=Check/uncheck
+gui.all=All
+gui.slider=Move slider
+gui.cancel=Cancel
+gui.load.asset=Loading asset %asset%
+gui.mm.singleplayer=Singleplayer
+gui.mm.multiplayer=Multiplayer
+gui.mm.settings=Settings
+gui.mm.exit=Exit
+gui.mm.oldgraphics=Old graphics detected
+gui.mm.oldgraphics.msg=Make sure your hardware supports OpenGL 3.3. Update drivers from your GPU's manufacturer's site. These extensions not supported:
+gui.screenshot=[Screenshot|Shotscreen] [saved|stored] as %name%. There [%count%|are no screenshots|is one screenshot|are %count% screenshots] in screenshots directory.
+gui.pause.continue=Continue
+gui.pause.disconnect=Disconnect
+gui.screenshot_library=Screenshot Library...
+gui.settings=Settings
+gui.settings.game=Game
+gui.settings.graphics=Graphics
+gui.settings.graphics.nn=Normal mapping
+gui.settings.graphics.nn.tt=Models are more realistic.
+gui.settings.graphics.uiblur=UI blur
+gui.settings.graphics.uiblur.tt=Blurry background behind UI components.
+gui.settings.graphics.shadows=Shadows: %value%
+gui.settings.graphics.shadows.onlyworld=only landscape
+settings.graphics.sky=Sky
+settings.graphics.ao=Ambient Occlusion
+gui.settings.input=Input
+gui.settings.misc=Misc
+gui.settings.misc.debug=Debug mode
+gui.settings.misc.dev=Developer mode
+gui.settings.misc.fr=Max framerate: %value%
+gui.settings.misc.fr.vsync=VSync
+gui.settings.mods=Mods
+gui.multiplayer=Mutiplayer
+gui.multiplayer.connect=Connect
+gui.settings.disabled=Disabled
+gui.settings.enabled=Enabled
+gui.settings.min=Minimum
+gui.settings.medium=Medium
+gui.settings.max=Maximum
+gui.connecting.connecting=Connecting
+gui.connecting.connecting.desc=Waiting for connection...
+gui.connecting.connecting.loading=Loading terrain...
+gui.disconnected.disconnected=Disconnected
+gui.disconnected.lostconnection=Lost connection
+gui.disconnected.spam=Spam
+gui.register=Enter nickname
+
+gui.settings.misc.net_debug=Network debug
+gui.net_debug.fps_delay=FPS / DELAY
+gui.net_debug.io=NET IN / OUT
+gui.net_debug.loss=LOSS IN / OUT
+
+craftgame:input/multiplayer=Multiplayer
+craftgame:input/multiplayer/chat=Open chat
+
+craftgame:input/gameplay=Gameplay
+craftgame:input/gameplay/3rdperson=Third person mode
+
+Easter egg!

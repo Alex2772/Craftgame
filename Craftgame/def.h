@@ -1,6 +1,7 @@
 #pragma once
 #include <cmath>
 #include <glm/detail/type_vec3.hpp>
+#include <glm/glm.hpp>
 
 typedef int cindex;
 typedef int p_type;

@@ -30,7 +30,7 @@ void ByteBuffer::reallocate(size_t size)
 	char* nBuffer = new char[size];
 	_reserved = size;
 	if (buf) {
-		memcpy(nBuffer, buf, std::min(_size, size));
+		memcpy(nBuffer, buf, min(_size, size));
 		delete[] buf;
 	}
 	buf = nBuffer;

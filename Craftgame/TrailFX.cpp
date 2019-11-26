@@ -16,7 +16,7 @@ void TrailFX::render()
 {
 	VAO vao;
 	VAO::Loader l = vao;
-	l.store(0, {
+	l.store(0, std::vector<glm::vec3>{
 		mPos - 0.1f,
 		mPos + 0.1f,
 		pos2 - 0.1f,

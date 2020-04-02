@@ -1,5 +1,8 @@
 # Craftgame
 
+THIS PROJECT IS BEING FULLY REWRITED! THE CODE IN THIS REPOSITORY IS OUTDATED! USE IT AT YOUR OWN RISK!
+
+
 Unstable repo.
 
 Minecraft-like game engine.
